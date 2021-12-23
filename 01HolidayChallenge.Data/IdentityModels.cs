@@ -33,7 +33,9 @@ namespace _01HolidayChallenge.Data
             return new ApplicationDbContext();
         }
 
-        //public DbSet<> {}
+        public DbSet<Tree> Trees { get; set; }
+        public DbSet<Present> Presents { get; set; }
+        public DbSet<Ornament> Ornaments {  get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
