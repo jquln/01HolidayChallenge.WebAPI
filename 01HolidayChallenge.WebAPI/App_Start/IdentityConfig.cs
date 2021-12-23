@@ -4,6 +4,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using _01HolidayChallenge.WebAPI.Models;
+using _01HolidayChallenge.Data;
 
 namespace _01HolidayChallenge.WebAPI
 {
